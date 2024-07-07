@@ -1,0 +1,417 @@
+{
+    "images": {
+        "standard_frame": "sovereign/standard_frame.png",
+        "reflex_frame": "sovereign/reflex_frame.png",
+        "faction_icons": "sovereign/faction_icons.png",
+        "forge_cost_icons": "sovereign/forge_cost_icons.png",
+        "health_icons": "sovereign/health_icons.png",
+        "stats_icons": "sovereign/unit_stats.png",
+        "effect_icons": "sovereign/effect_icons.png"
+    },
+    "templates": {
+        "unit": {
+            "width": 413.0,
+            "height": 563.0,
+            "layers": [
+                {
+                    "name": "stats",
+                    "component": "statsIcons",
+                    "width": 413.0,
+                    "height": 563.0,
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "attack",
+                    "width": 50.0,
+                    "height": 50.0,
+                    "posX": 29.0,
+                    "posY": 96.0                        
+                },
+                {
+                    "name": "armor",
+                    "width": 50.0,
+                    "height": 50.0,
+                    "posX": 29.0,
+                    "posY": 222.0
+                },
+                {
+                    "name": "frame",
+                    "component": "standardFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 339.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "forgeCost",
+                    "component": "forgeCostIcons",
+                    "posX": 31.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "health", 
+                    "component": "healthIcons",
+                    "width": 219.0,
+                    "height": 34.0,
+                    "posX": 98.0,
+                    "posY": 518.0
+                },
+                {
+                    "name": "title",
+                    "width": 345.0,
+                    "height": 30.0,
+                    "posX": 35.0,
+                    "posY": 26.0
+                },
+                {
+                    "name": "subtitle",
+                    "width": 340.0,
+                    "height": 28.0,
+                    "posX": 38.0,
+                    "posY": 308.0            
+                },
+                {
+                    "name": "cardText",
+                    "width": 310.0,
+                    "height": 152.0,
+                    "posX": 50.0,
+                    "posY": 358.0
+                }
+            ]
+        },
+        "reflex": {
+            "width": 413.0,
+            "height": 563.0,
+            "layers": [
+                {
+                    "name": "frame",
+                    "component": "reflexFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 339.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "forgeCost",
+                    "component": "forgeCostIcons",
+                    "posX": 31.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "title",
+                    "width": 345.0,
+                    "height": 30.0,
+                    "posX": 35.0,
+                    "posY": 26.0
+                },
+                {
+                    "name": "subtitle",
+                    "width": 340.0,
+                    "height": 28.0,
+                    "posX": 38.0,
+                    "posY": 308.0            
+                },
+                {
+                    "name": "cardText",
+                    "width": 310.0,
+                    "height": 152.0,
+                    "posX": 50.0,
+                    "posY": 358.0
+                }
+            ]
+        },
+        "augment": {
+            "width": 413.0,
+            "height": 563.0,
+            "layers": [
+                {
+                    "name": "frame",
+                    "component": "standardFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 339.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "forgeCost",
+                    "component": "forgeCostIcons",
+                    "posX": 31.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "title",
+                    "width": 345.0,
+                    "height": 30.0,
+                    "posX": 35.0,
+                    "posY": 26.0
+                },
+                {
+                    "name": "subtitle",
+                    "width": 340.0,
+                    "height": 28.0,
+                    "posX": 38.0,
+                    "posY": 308.0            
+                },
+                {
+                    "name": "cardText",
+                    "width": 310.0,
+                    "height": 152.0,
+                    "posX": 50.0,
+                    "posY": 358.0
+                }
+            ]
+        },
+        "facility": {
+            "width": 413.0,
+            "height": 563.0,
+            "layers": [
+                {
+                    "name": "frame",
+                    "component": "standardFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 339.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "forgeCost",
+                    "component": "forgeCostIcons",
+                    "posX": 31.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "title",
+                    "width": 345.0,
+                    "height": 30.0,
+                    "posX": 35.0,
+                    "posY": 26.0
+                },
+                {
+                    "name": "subtitle",
+                    "width": 340.0,
+                    "height": 28.0,
+                    "posX": 38.0,
+                    "posY": 308.0            
+                },
+                {
+                    "name": "cardText",
+                    "width": 310.0,
+                    "height": 152.0,
+                    "posX": 50.0,
+                    "posY": 358.0
+                }
+            ]
+        },
+        "effectIcon" : {
+            "width": 20.0,
+            "height": 20.0,
+            "layers": [
+                {
+                    "name": "icon",
+                    "component": "effectIcons",
+                    "posX": 0.0,
+                    "posY": 0.0
+                }
+            ]
+        }
+    },
+    "components": {
+        "standardFrame": {
+            "image": "standard_frame",
+            "width": 413.0,
+            "height": 563.0,
+            "shape": "rectangle"
+        },
+        "reflexFrame": {
+            "image": "reflex_frame",
+            "width": 413.0,
+            "height": 563.0,
+            "shape": "rectangle"
+        },
+        "statsIcons": {
+            "image": "stats_icons",
+            "width": 413.0,
+            "height": 563.0,
+            "shape": "rectangle"
+        },
+        "healthIcons": {
+            "image": "health_icons",
+            "width": 32.0,
+            "height": 32.0,
+            "shape": "circle",
+            "tiles": [
+                {   "name": "drone",
+                    "x": 0,
+                    "y": 0
+                },
+                {   "name": "talent",
+                    "x": 0,
+                    "y": 1
+                }
+            ]
+        },
+        "factionIcons": {
+            "image": "faction_icons",
+            "width": 42.0,
+            "height": 42.0,
+            "shape": "circle",
+            "tiles": [
+                {   "name": "neogenesis",
+                    "x": 0,
+                    "y": 0
+                },
+                {   "name": "coriolan",
+                    "x": 0,
+                    "y": 1
+                },
+                {   "name": "cult",
+                    "x": 0,
+                    "y": 2
+                },
+                {   "name": "dronestate",
+                    "x": 0,
+                    "y": 3
+                },
+                {   "name": "hegemony",
+                    "x": 0,
+                    "y": 4
+                },
+                {   "name": "machina",
+                    "x": 1,
+                    "y": 0
+                },
+                {   "name": "windwalker",
+                    "x": 1,
+                    "y": 1
+                },
+                {   "name": "undercity",
+                    "x": 1,
+                    "y": 2
+                },
+                {   "name": "utopian",
+                    "x": 1,
+                    "y": 3
+                },
+                {   "name": "myrmidon",
+                    "x": 1,
+                    "y": 4
+                }
+            ]
+        },
+        "forgeCostIcons": {
+            "image": "forge_cost_icons",
+            "width": 42.0,
+            "height": 42.0,
+            "shape": "circle",
+            "tiles": [
+                {   "name": "1s",
+                    "x": 0,
+                    "y": 0
+                },
+                {   "name": "2s",
+                    "x": 0,
+                    "y": 1
+                },
+                {   "name": "3s", 
+                    "x": 0,
+                    "y": 2
+                },
+                {   "name": "4s",
+                    "x": 0,
+                    "y": 3
+                },
+                {   "name": "5s", 
+                    "x": 0,
+                    "y": 4
+                },
+                {   "name": "6s",
+                    "x": 0,
+                    "y": 5
+                },
+                {   "name": "7s",
+                    "x": 0,
+                    "y": 6
+                },
+                {   "name": "8s", 
+                    "x": 0,
+                    "y": 7
+                },
+                {   "name": "0r",
+                    "x": 1,
+                    "y": 0
+                },
+                {   "name": "1r",
+                    "x": 1,
+                    "y": 1
+                },
+                {   "name": "2r", 
+                    "x": 1,
+                    "y": 2
+                },
+                {   "name": "3r",
+                    "x": 1,
+                    "y": 3
+                },
+                {   "name": "4r",
+                    "x": 1,
+                    "y": 4
+                },
+                {   "name": "5r",
+                    "x": 1,
+                    "y": 5
+                },
+                {   "name": "xr",
+                    "x": 1,
+                    "y": 6
+                }
+            ]
+        },
+        "effectIcons": {
+            "image": "effect_icons",
+            "width": 20.0,
+            "height": 20.0,
+            "shape": "circle",
+            "tiles": [
+                {
+                    "name": "drone",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "name": "talent",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "forge1",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "name": "forge2",
+                    "x": 0,
+                    "y": 3
+                }
+
+            ]
+        }
+    }
+
+}
