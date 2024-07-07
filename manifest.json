@@ -1,6 +1,6 @@
 {
-    "name": "apsynthos_forge",
-    "short_name": "apsynthos_forge",
+    "name": "Apsynthos Forge",
+    "short_name": "Apsynthos Forge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
