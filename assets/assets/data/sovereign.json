@@ -78,9 +78,9 @@
                 {
                     "name": "cardText",
                     "width": 310.0,
-                    "height": 152.0,
+                    "height": 129.0,
                     "posX": 50.0,
-                    "posY": 358.0
+                    "posY": 355.0
                 }
             ]
         },
@@ -123,7 +123,7 @@
                 {
                     "name": "cardText",
                     "width": 310.0,
-                    "height": 152.0,
+                    "height": 135.0,
                     "posX": 50.0,
                     "posY": 358.0
                 }
@@ -168,7 +168,7 @@
                 {
                     "name": "cardText",
                     "width": 310.0,
-                    "height": 152.0,
+                    "height": 135.0,
                     "posX": 50.0,
                     "posY": 358.0
                 }
@@ -213,7 +213,7 @@
                 {
                     "name": "cardText",
                     "width": 310.0,
-                    "height": 152.0,
+                    "height": 135.0,
                     "posX": 50.0,
                     "posY": 358.0
                 }
