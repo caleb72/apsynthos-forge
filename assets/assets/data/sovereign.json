@@ -1,5 +1,6 @@
 {
     "images": {
+        "echo_frame": "sovereign/echo_frame.png",
         "leader_frame": "sovereign/leader_frame.png",
         "standard_frame": "sovereign/standard_frame.png",
         "augment_frame": "sovereign/augment_frame.png",
@@ -11,6 +12,30 @@
         "effect_icons": "sovereign/effect_icons.png"
     },
     "templates": {
+        "echo": {
+            "width": 413.0,
+            "height": 563.0,
+            "layers": [
+                {
+                    "name": "frame",
+                    "component": "echoFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 339.0,
+                    "posY": 492.0
+                },
+                {
+                    "name": "forgeCost",
+                    "component": "forgeCostIcons",
+                    "posX": 31.0,
+                    "posY": 492.0
+                }
+            ]
+        },
         "leader": {
             "width": 563.0,
             "height": 413.0,
@@ -266,7 +291,12 @@
             ]
         }
     },
-    "components": {       
+    "components": { 
+        "echoFrame": {
+            "image": "echo_frame",
+            "width": 413.0,
+            "height": 563.0
+        },      
         "leaderFrame": {
             "image": "leader_frame",
             "width": 563.0,
