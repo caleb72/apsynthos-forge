@@ -1,6 +1,8 @@
 {
     "images": {
+        "leader_frame": "sovereign/leader_frame.png",
         "standard_frame": "sovereign/standard_frame.png",
+        "augment_frame": "sovereign/augment_frame.png",
         "reflex_frame": "sovereign/reflex_frame.png",
         "faction_icons": "sovereign/faction_icons.png",
         "forge_cost_icons": "sovereign/forge_cost_icons.png",
@@ -9,6 +11,38 @@
         "effect_icons": "sovereign/effect_icons.png"
     },
     "templates": {
+        "leader": {
+            "width": 563.0,
+            "height": 413.0,
+            "layers": [
+                {
+                    "name": "frame",
+                    "component": "leaderFrame",
+                    "posX": 0.0,
+                    "posY": 0.0
+                },
+                {
+                    "name": "faction",
+                    "component": "factionIcons",
+                    "posX": 494.0,
+                    "posY": 342.0
+                },
+                {
+                    "name": "subtitle",
+                    "width": 400.0,
+                    "height": 27.0,
+                    "posX": 81.0,
+                    "posY": 220.0
+                },
+                {
+                    "name": "cardText",
+                    "width": 420.0,
+                    "height": 101.0,
+                    "posX": 71.0,
+                    "posY": 261.0
+                }
+            ]
+        },
         "unit": {
             "width": 413.0,
             "height": 563.0,
@@ -59,7 +93,7 @@
                     "width": 219.0,
                     "height": 34.0,
                     "posX": 98.0,
-                    "posY": 518.0
+                    "posY": 507.0
                 },
                 {
                     "name": "title",
@@ -135,7 +169,7 @@
             "layers": [
                 {
                     "name": "frame",
-                    "component": "standardFrame",
+                    "component": "augmentFrame",
                     "posX": 0.0,
                     "posY": 0.0
                 },
@@ -232,9 +266,21 @@
             ]
         }
     },
-    "components": {
+    "components": {       
+        "leaderFrame": {
+            "image": "leader_frame",
+            "width": 563.0,
+            "height": 413.0,
+            "shape": "rectangle"
+        },
         "standardFrame": {
             "image": "standard_frame",
+            "width": 413.0,
+            "height": 563.0,
+            "shape": "rectangle"
+        },
+        "augmentFrame": {
+            "image": "augment_frame",
             "width": 413.0,
             "height": 563.0,
             "shape": "rectangle"
